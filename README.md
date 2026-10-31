@@ -429,11 +429,13 @@ Restart open apps afterwards (Files caches icons per window).
 Add `--system` to install to `/usr/share/icons` instead, for every user and the
 login screen (asks for sudo); `--user` is the default.
 
-Wallpapers ship in [`backgrounds/`](backgrounds/), named `k3-<subject>`: six
+Wallpapers ship in [`backgrounds/`](backgrounds/), named `k3-<subject>`: seven
 ink-wash illustrations in the palette's own two tones, a stargazer under a
 swirling sky, a figure crouched in rubble, a climber in a storm, a girl in
-stardust, a window onto a dark eye over the city, and a rally car in a manga
-panel. `assets/wallpaper.png` is the stardust one (`k3-stardust.jpg`) at 2560x1440.
+stardust, a window onto a dark eye over the city, a rally car in a manga
+panel, and the anime portrait from the screenshot (`k3-anime.png`), the same
+picture in the palette's own tones. `assets/wallpaper.png` is the stardust one
+(`k3-stardust.jpg`) at 2560x1440.
 
 Settings → Wallpaper → Add image → a file from `backgrounds/`, or one you downloaded.
 
