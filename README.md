@@ -15,6 +15,7 @@ terracotta is kept for what is wrong.
 </div>
 
 ---
+![Pop!_OS COSMIC desktop with the K3 theme](assets/screenshot.png)
 
 ## Palette
 
@@ -108,6 +109,7 @@ steel with ink text on it.
 ├── assets
 │   ├── cursors/                 # cursor preview
 │   ├── cosmic-term/             # scheme previews for cosmic-term/README.md
+│   ├── screenshot.png           # README screenshot
 │   └── wallpaper.png            # the stardust wallpaper at 2560x1440
 ├── backgrounds/                 # wallpapers, k3-<subject>.png (see Icons and wallpaper)
 ├── docs
