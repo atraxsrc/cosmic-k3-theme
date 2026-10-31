@@ -9,16 +9,16 @@ Stylesheets:
 
 | Hex       | Role                      |
 |-----------|---------------------------|
-| `#101315` | Frame, page chrome, text on steel |
-| `#212121` | Panels, menus             |
-| `#373A3A` | Menu hover row (steel tinted into the panel) |
-| `#404344` | Menu pressed row          |
-| `#343D41` | Separators, menu border   |
-| `#798186` | Accent, URL bar border, hover rail |
-| `#8E969B` | Accent hover              |
-| `#9FA5A9` | Menu text, new tab active |
-| `#949494` | Links                     |
-| `#D5D5D5` | Hover text                |
+| ![#101315](https://placehold.co/12x12/101315/101315.png) `#101315` | Frame, page chrome, text on steel |
+| ![#212121](https://placehold.co/12x12/212121/212121.png) `#212121` | Panels, menus             |
+| ![#373A3A](https://placehold.co/12x12/373a3a/373a3a.png) `#373A3A` | Menu hover row (steel tinted into the panel) |
+| ![#404344](https://placehold.co/12x12/404344/404344.png) `#404344` | Menu pressed row          |
+| ![#343D41](https://placehold.co/12x12/343d41/343d41.png) `#343D41` | Separators, menu border   |
+| ![#798186](https://placehold.co/12x12/798186/798186.png) `#798186` | Accent, URL bar border, hover rail |
+| ![#8E969B](https://placehold.co/12x12/8e969b/8e969b.png) `#8E969B` | Accent hover              |
+| ![#9FA5A9](https://placehold.co/12x12/9fa5a9/9fa5a9.png) `#9FA5A9` | Menu text, new tab active |
+| ![#949494](https://placehold.co/12x12/949494/949494.png) `#949494` | Links                     |
+| ![#D5D5D5](https://placehold.co/12x12/d5d5d5/d5d5d5.png) `#D5D5D5` | Hover text                |
 
 ## Structure
 
@@ -55,19 +55,19 @@ steel so it does not fall back to the desktop accent when
 Linux). Two more, `toolbar_field_highlight` and `toolbar_field_highlight_text`,
 colour selected text in the URL bar the same way, as DarkGold does. Every
 text colour clears WCAG AA (4.5:1) on its background; icons and the tab
-line clear 3:1. Steel `#798186` is only 4.1:1 on the toolbar, so the focused
-tab text uses the bright steel `#A8ADB0` instead.
+line clear 3:1. Steel ![#798186](https://placehold.co/12x12/798186/798186.png) `#798186` is only 4.1:1 on the toolbar, so the focused
+tab text uses the bright steel ![#A8ADB0](https://placehold.co/12x12/a8adb0/a8adb0.png) `#A8ADB0` instead.
 
 | Hex       | Where in the theme                          |
 |-----------|---------------------------------------------|
-| `#101315` | Frame, new tab, text on steel selections    |
-| `#212121` | Toolbar, menus                              |
-| `#343D41` | URL bar field, button hover, sidebar border |
-| `#CACCCC` | Body text                                   |
-| `#949494` | Menu border                                 |
-| `#9FA5A9` | Icons, inactive tab text                    |
-| `#A8ADB0` | Focused tab text                            |
-| `#798186` | Focused URL bar ring and text selection, tab line, pressed button, menu and sidebar selection, loading, attention |
+| ![#101315](https://placehold.co/12x12/101315/101315.png) `#101315` | Frame, new tab, text on steel selections    |
+| ![#212121](https://placehold.co/12x12/212121/212121.png) `#212121` | Toolbar, menus                              |
+| ![#343D41](https://placehold.co/12x12/343d41/343d41.png) `#343D41` | URL bar field, button hover, sidebar border |
+| ![#CACCCC](https://placehold.co/12x12/cacccc/cacccc.png) `#CACCCC` | Body text                                   |
+| ![#949494](https://placehold.co/12x12/949494/949494.png) `#949494` | Menu border                                 |
+| ![#9FA5A9](https://placehold.co/12x12/9fa5a9/9fa5a9.png) `#9FA5A9` | Icons, inactive tab text                    |
+| ![#A8ADB0](https://placehold.co/12x12/a8adb0/a8adb0.png) `#A8ADB0` | Focused tab text                            |
+| ![#798186](https://placehold.co/12x12/798186/798186.png) `#798186` | Focused URL bar ring and text selection, tab line, pressed button, menu and sidebar selection, loading, attention |
 
 Build the package:
 
@@ -115,7 +115,7 @@ To undo: delete the two files from the profile's `chrome/` folder and restart.
 - **Never set `--panel-*` or `--arrowpanel-*` on `:root`.** Those variables leak
   into the toolbar and blank the URL bar. They stay on the popup elements.
 - **Context menus do not get an extra element border.** A second stroke made
-  the right-click panel look detached. Hover is a steel-tinted `#373A3A`
+  the right-click panel look detached. Hover is a steel-tinted ![#373A3A](https://placehold.co/12x12/373a3a/373a3a.png) `#373A3A`
   row with a 3px steel rail on the left, not a full ring.
 - **Native menu styling is switched off** (`appearance: none`) on menus and
   menu rows. Without it the COSMIC/GTK hover paints over the colours above.

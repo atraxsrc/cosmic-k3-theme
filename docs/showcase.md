@@ -8,20 +8,20 @@ describing itself, written in Markdown and rendered by **Postilla**.
 
 ## Palette
 
-Every text colour is checked against the window background `#101315`.
+Every text colour is checked against the window background ![#101315](https://placehold.co/12x12/101315/101315.png) `#101315`.
 
 | Role | Hex | Contrast on background |
 |------|-----|------------------------|
-| Text | `#CACCCC` | 11.6:1 |
-| Steel, accent | `#798186` | 4.7:1 |
-| Orange, warning | `#D87C4A` | 6.1:1 |
-| Terracotta, error | `#DE6145` | 5.2:1 |
-| Mist, success | `#9FA5A9` | 7.5:1 |
-| Khaki, symlinks | `#C9C2B4` | 10.5:1 |
-| Pewter, directories | `#949494` | 6.2:1 |
-| Muted | `#7F7F7F` | 4.7:1 |
+| Text | ![#CACCCC](https://placehold.co/12x12/cacccc/cacccc.png) `#CACCCC` | 11.6:1 |
+| Steel, accent | ![#798186](https://placehold.co/12x12/798186/798186.png) `#798186` | 4.7:1 |
+| Orange, warning | ![#D87C4A](https://placehold.co/12x12/d87c4a/d87c4a.png) `#D87C4A` | 6.1:1 |
+| Terracotta, error | ![#DE6145](https://placehold.co/12x12/de6145/de6145.png) `#DE6145` | 5.2:1 |
+| Mist, success | ![#9FA5A9](https://placehold.co/12x12/9fa5a9/9fa5a9.png) `#9FA5A9` | 7.5:1 |
+| Khaki, symlinks | ![#C9C2B4](https://placehold.co/12x12/c9c2b4/c9c2b4.png) `#C9C2B4` | 10.5:1 |
+| Pewter, directories | ![#949494](https://placehold.co/12x12/949494/949494.png) `#949494` | 6.2:1 |
+| Muted | ![#7F7F7F](https://placehold.co/12x12/7f7f7f/7f7f7f.png) `#7F7F7F` | 4.7:1 |
 
-Containers sit one step away from the background at `#212121`, which is
+Containers sit one step away from the background at ![#212121](https://placehold.co/12x12/212121/212121.png) `#212121`, which is
 what frosted glass blurs into.
 
 ## Where the colours go

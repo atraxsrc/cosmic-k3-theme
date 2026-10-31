@@ -46,7 +46,7 @@ The workbench takes the window colour of the rice's `cosmic/K3.ron` for the
 editor, side bars, panel, title and status bar, the container colours for
 menus, hovers, inputs and the command palette, and the steel accent for the
 active tab line, buttons, badges and the menu highlight. Button hover is the
-lighter steel `#8E969B`. The integrated terminal uses the rice's COSMIC
+lighter steel ![#8E969B](https://placehold.co/12x12/8e969b/8e969b.png) `#8E969B`. The integrated terminal uses the rice's COSMIC
 Terminal scheme (`cosmic-term/`), so command output looks the same as in
 COSMIC Terminal.
 
@@ -59,9 +59,9 @@ terminal's `blue` slot colours its links.
 ## Contrast
 
 Text is at least 4.5:1 on the window background and on menus and hovers,
-comments and line numbers at least 3:1. Steel `#798186` is 4.7:1 on the
-window background but only 4.1:1 on the container colour `#212121`, so where
-steel is text on a container it steps up to the bright steel `#A8ADB0`:
+comments and line numbers at least 3:1. Steel ![#798186](https://placehold.co/12x12/798186/798186.png) `#798186` is 4.7:1 on the
+window background but only 4.1:1 on the container colour ![#212121](https://placehold.co/12x12/212121/212121.png) `#212121`, so where
+steel is text on a container it steps up to the bright steel ![#A8ADB0](https://placehold.co/12x12/a8adb0/a8adb0.png) `#A8ADB0`:
 the match highlight in the suggest and hover widgets, the breadcrumb picker
 selection and notification links. Keywords in the editor stay steel; on the
 highlighted current line they dip to 4.1:1, as comments dip under 3:1 there.

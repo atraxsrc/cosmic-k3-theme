@@ -26,22 +26,22 @@ window background.
 
 | Role | Color | Hex |
 |------|-------|-----|
-| Background | ![#101315](https://placehold.co/12x12/101315/101315.png) Ink | `#101315` |
-| Containers | ![#212121](https://placehold.co/12x12/212121/212121.png) Graphite / Slate | `#212121` / `#2C2C2D` |
-| Text | ![#cacccc](https://placehold.co/12x12/cacccc/cacccc.png) Silver | `#CACCCC` |
-| Accent | ![#798186](https://placehold.co/12x12/798186/798186.png) Steel | `#798186` |
-| Warning | ![#d87c4a](https://placehold.co/12x12/d87c4a/d87c4a.png) Orange | `#D87C4A` |
-| Error | ![#de6145](https://placehold.co/12x12/de6145/de6145.png) Terracotta | `#DE6145` |
-| Success | ![#9fa5a9](https://placehold.co/12x12/9fa5a9/9fa5a9.png) Mist | `#9FA5A9` |
-| Khaki | ![#c9c2b4](https://placehold.co/12x12/c9c2b4/c9c2b4.png) Symlinks, yellow slot | `#C9C2B4` |
-| Pewter | ![#949494](https://placehold.co/12x12/949494/949494.png) Directories, types | `#949494` |
-| Muted | ![#7f7f7f](https://placehold.co/12x12/7f7f7f/7f7f7f.png) Secondary text | `#7F7F7F` |
-| Dim | ![#565d60](https://placehold.co/12x12/565d60/565d60.png) Comments | `#565D60` |
-| Lines | ![#4b4e55](https://placehold.co/12x12/4b4e55/4b4e55.png) Box lines, inactive | `#4B4E55` |
+| Background | ![#101315](https://placehold.co/12x12/101315/101315.png) Ink | ![#101315](https://placehold.co/12x12/101315/101315.png) `#101315` |
+| Containers | ![#212121](https://placehold.co/12x12/212121/212121.png) Graphite / Slate | ![#212121](https://placehold.co/12x12/212121/212121.png) `#212121` / ![#2C2C2D](https://placehold.co/12x12/2c2c2d/2c2c2d.png) `#2C2C2D` |
+| Text | ![#cacccc](https://placehold.co/12x12/cacccc/cacccc.png) Silver | ![#CACCCC](https://placehold.co/12x12/cacccc/cacccc.png) `#CACCCC` |
+| Accent | ![#798186](https://placehold.co/12x12/798186/798186.png) Steel | ![#798186](https://placehold.co/12x12/798186/798186.png) `#798186` |
+| Warning | ![#d87c4a](https://placehold.co/12x12/d87c4a/d87c4a.png) Orange | ![#D87C4A](https://placehold.co/12x12/d87c4a/d87c4a.png) `#D87C4A` |
+| Error | ![#de6145](https://placehold.co/12x12/de6145/de6145.png) Terracotta | ![#DE6145](https://placehold.co/12x12/de6145/de6145.png) `#DE6145` |
+| Success | ![#9fa5a9](https://placehold.co/12x12/9fa5a9/9fa5a9.png) Mist | ![#9FA5A9](https://placehold.co/12x12/9fa5a9/9fa5a9.png) `#9FA5A9` |
+| Khaki | ![#c9c2b4](https://placehold.co/12x12/c9c2b4/c9c2b4.png) Symlinks, yellow slot | ![#C9C2B4](https://placehold.co/12x12/c9c2b4/c9c2b4.png) `#C9C2B4` |
+| Pewter | ![#949494](https://placehold.co/12x12/949494/949494.png) Directories, types | ![#949494](https://placehold.co/12x12/949494/949494.png) `#949494` |
+| Muted | ![#7f7f7f](https://placehold.co/12x12/7f7f7f/7f7f7f.png) Secondary text | ![#7F7F7F](https://placehold.co/12x12/7f7f7f/7f7f7f.png) `#7F7F7F` |
+| Dim | ![#565d60](https://placehold.co/12x12/565d60/565d60.png) Comments | ![#565D60](https://placehold.co/12x12/565d60/565d60.png) `#565D60` |
+| Lines | ![#4b4e55](https://placehold.co/12x12/4b4e55/4b4e55.png) Box lines, inactive | ![#4B4E55](https://placehold.co/12x12/4b4e55/4b4e55.png) `#4B4E55` |
 
 The accent is the quietest of any rice here, 4.7:1 on the background and
 4.1:1 on a container, so wherever steel is text on a menu, hover or toolbar it
-steps up to the bright steel `#A8ADB0`. Buttons and selections keep the plain
+steps up to the bright steel ![#A8ADB0](https://placehold.co/12x12/a8adb0/a8adb0.png) `#A8ADB0`. Buttons and selections keep the plain
 steel with ink text on it.
 
 ---
@@ -122,7 +122,7 @@ steel with ink text on it.
 
 Settings → Desktop → Appearance → **Dark** → **Import** → `cosmic/K3.ron`
 
-Accent is steel `#798186`. Use the `+` control if you want a custom swatch.
+Accent is steel ![#798186](https://placehold.co/12x12/798186/798186.png) `#798186`. Use the `+` control if you want a custom swatch.
 
 Frosted glass is on in the `.ron` at `frosted: Low` with an opacity table of
 0.66 to 0.96, tinted with the palette's dim grey, for windows, panel,
@@ -160,7 +160,7 @@ It backs up each file it replaces to `*.bak` and COSMIC applies it live.
 
 The interface font is the Light weight on purpose. COSMIC sets interface text
 brightness itself (the text tint only picks the hue), so on these dark panels
-labels land near `#DFE7DF` whatever tint you choose; the thinner strokes are
+labels land near ![#DFE7DF](https://placehold.co/12x12/dfe7df/dfe7df.png) `#DFE7DF` whatever tint you choose; the thinner strokes are
 what calms them at night. Settings → Fonts lists only families, so the weight
 lives in `cosmic/config/com.system76.CosmicTk/v1/interface_font`.
 
@@ -182,7 +182,7 @@ Silver text on ink; terracotta for errors, steel for the cursor and the
 in the magenta slot for numbers, pewter for directories.
 
 If silver glares at night, there are five dimmer variants with the same ANSI
-colours, from Smoke `#7F7F7F` up to Pale `#BABDBE`. Previews and which to
+colours, from Smoke ![#7F7F7F](https://placehold.co/12x12/7f7f7f/7f7f7f.png) `#7F7F7F` up to Pale ![#BABDBE](https://placehold.co/12x12/babdbe/babdbe.png) `#BABDBE`. Previews and which to
 pick: [`cosmic-term/README.md`](cosmic-term/README.md).
 
 ---
@@ -412,7 +412,7 @@ cp btop/K3.theme ~/.config/btop/themes/
 Icons: **Cosmic-K3**, the [Kanagawa icons](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/tree/main/icons/Kanagawa)
 by Fausto Korpsvart recolored to this palette in
 [cosmic-icon-themes](https://github.com/atraxsrc/cosmic-icon-themes). Folders come in
-three colors: **Steel** `#798186` (default), **Terracotta** `#DE6145` and **Dark** `#2C2C2D` with steel symbols.
+three colors: **Steel** ![#798186](https://placehold.co/12x12/798186/798186.png) `#798186` (default), **Terracotta** ![#DE6145](https://placehold.co/12x12/de6145/de6145.png) `#DE6145` and **Dark** ![#2C2C2D](https://placehold.co/12x12/2c2c2d/2c2c2d.png) `#2C2C2D` with steel symbols.
 
 ![Cosmic-K3 folder colors](https://raw.githubusercontent.com/atraxsrc/cosmic-icon-themes/main/previews/Cosmic-K3.png)
 

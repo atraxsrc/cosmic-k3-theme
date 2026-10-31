@@ -36,17 +36,17 @@ active tab text takes the bright steel.
 
 | Hex       | Where in the theme                               |
 |-----------|--------------------------------------------------|
-| `#101315` | Frame, inactive tabs, new tab page (incognito too) |
-| `#212121` | Toolbar and active tab                           |
-| `#343D41` | Address bar                                      |
-| `#CACCCC` | Bookmark bar text, address bar text, new tab text |
-| `#9FA5A9` | Toolbar icons, inactive tab text                 |
-| `#A8ADB0` | Active tab text                                  |
-| `#798186` | New tab links                                    |
+| ![#101315](https://placehold.co/12x12/101315/101315.png) `#101315` | Frame, inactive tabs, new tab page (incognito too) |
+| ![#212121](https://placehold.co/12x12/212121/212121.png) `#212121` | Toolbar and active tab                           |
+| ![#343D41](https://placehold.co/12x12/343d41/343d41.png) `#343D41` | Address bar                                      |
+| ![#CACCCC](https://placehold.co/12x12/cacccc/cacccc.png) `#CACCCC` | Bookmark bar text, address bar text, new tab text |
+| ![#9FA5A9](https://placehold.co/12x12/9fa5a9/9fa5a9.png) `#9FA5A9` | Toolbar icons, inactive tab text                 |
+| ![#A8ADB0](https://placehold.co/12x12/a8adb0/a8adb0.png) `#A8ADB0` | Active tab text                                  |
+| ![#798186](https://placehold.co/12x12/798186/798186.png) `#798186` | New tab links                                    |
 
 Every text colour clears WCAG AA (4.5:1) on its background. The steel accent
-`#798186` itself is 4.1:1 on the toolbar, which is why the active tab text
-steps up to the bright steel `#A8ADB0` (7.1:1); on the ink frame the plain
+![#798186](https://placehold.co/12x12/798186/798186.png) `#798186` itself is 4.1:1 on the toolbar, which is why the active tab text
+steps up to the bright steel ![#A8ADB0](https://placehold.co/12x12/a8adb0/a8adb0.png) `#A8ADB0` (7.1:1); on the ink frame the plain
 steel is 4.7:1 and stays.
 
 Chromium themes take `[R, G, B]` lists, not hex, so `manifest.json` spells

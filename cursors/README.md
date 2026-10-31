@@ -6,11 +6,11 @@ rice's icon colours: one per folder colour of the
 [Cosmic-K3](https://github.com/atraxsrc/cosmic-icon-themes) icon pack, **Steel**, **Terracotta**, **Dark**.
 All patched so they work in COSMIC's own apps.
 
-| Variant | Preview | Body | Contrast on `#101315` | Goes with |
+| Variant | Preview | Body | Contrast on ![#101315](https://placehold.co/12x12/101315/101315.png) `#101315` | Goes with |
 | ------- | ------- | ---- | ------------------- | --------- |
-| **Steel** (default) | ![](../assets/cursors/Oxygen-K3-Steel.png) | `#798186` | 4.7:1 | Steel folders |
-| **Terracotta** | ![](../assets/cursors/Oxygen-K3-Terracotta.png) | `#DE6145` | 5.2:1 | Terracotta folders |
-| **Dark** | ![](../assets/cursors/Oxygen-K3-Dark.png) | `#2C2C2D` | 1.3:1 | Dark folders |
+| **Steel** (default) | ![](../assets/cursors/Oxygen-K3-Steel.png) | ![#798186](https://placehold.co/12x12/798186/798186.png) `#798186` | 4.7:1 | Steel folders |
+| **Terracotta** | ![](../assets/cursors/Oxygen-K3-Terracotta.png) | ![#DE6145](https://placehold.co/12x12/de6145/de6145.png) `#DE6145` | 5.2:1 | Terracotta folders |
+| **Dark** | ![](../assets/cursors/Oxygen-K3-Dark.png) | ![#2C2C2D](https://placehold.co/12x12/2c2c2d/2c2c2d.png) `#2C2C2D` | 1.3:1 | Dark folders |
 
 Each variant is a normal folder here (`Oxygen-K3-<Variant>/index.theme` + `cursors/`),
 already fixed for COSMIC. Nothing is downloaded at install time.
@@ -32,7 +32,7 @@ then add `Orange` to `VARIANTS` in `install.sh` and `uninstall.sh`.
 Steel and Dark use the full Oxygen shading, 0.18 above and below the target
 lightness, which on a grey reads as the usual dark rim and glossy top.
 Terracotta is held to `--spread 0.11` so the rim does not go brown and the
-gloss does not go pink; the body stays close to `#DE6145`:
+gloss does not go pink; the body stays close to ![#DE6145](https://placehold.co/12x12/de6145/de6145.png) `#DE6145`:
 
 ```bash
 ./cursors/recolour.py --base cursors/Oxygen-K3-Steel \
