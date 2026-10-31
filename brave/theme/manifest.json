@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Cosmic K3",
+  "version": "1.0",
+  "description": "Ink theme from the COSMIC K3 rice: steel accent, mist icons, nothing loud.",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": [16, 19, 21],
+      "frame_inactive": [16, 19, 21],
+      "frame_incognito": [16, 19, 21],
+      "frame_incognito_inactive": [16, 19, 21],
+      "background_tab": [16, 19, 21],
+      "background_tab_inactive": [16, 19, 21],
+      "background_tab_incognito": [16, 19, 21],
+      "background_tab_incognito_inactive": [16, 19, 21],
+      "toolbar": [33, 33, 33],
+      "tab_text": [168, 173, 176],
+      "tab_background_text": [159, 165, 169],
+      "tab_background_text_inactive": [159, 165, 169],
+      "tab_background_text_incognito": [159, 165, 169],
+      "tab_background_text_incognito_inactive": [159, 165, 169],
+      "bookmark_text": [202, 204, 204],
+      "toolbar_button_icon": [159, 165, 169],
+      "omnibox_background": [52, 61, 65],
+      "omnibox_text": [202, 204, 204],
+      "ntp_background": [16, 19, 21],
+      "ntp_text": [202, 204, 204],
+      "ntp_link": [121, 129, 134]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+  "name": "Cosmic K3",
+  "version": "1.0",
+  "description": "Ink theme from the COSMIC K3 rice: steel accent, mist icons, nothing loud.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{f2574cdd-cef2-4b54-aead-b847e2e890e4}"
+    }
+  },
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "toolbar": "#212121",
+      "toolbar_text": "#cacccc",
+      "frame": "#101315",
+      "tab_background_text": "#9fa5a9",
+      "tab_text": "#a8adb0",
+      "toolbar_field": "#343d41",
+      "toolbar_field_text": "#cacccc",
+      "toolbar_field_border_focus": "#798186",
+      "toolbar_field_highlight": "#798186",
+      "toolbar_field_highlight_text": "#101315",
+      "tab_line": "#798186",
+      "popup": "#212121",
+      "popup_text": "#cacccc",
+      "button_background_active": "#798186",
+      "button_background_hover": "#343d41",
+      "frame_inactive": "#101315",
+      "icons_attention": "#798186",
+      "icons": "#9fa5a9",
+      "ntp_background": "#101315",
+      "ntp_text": "#cacccc",
+      "popup_border": "#949494",
+      "popup_highlight_text": "#101315",
+      "popup_highlight": "#798186",
+      "sidebar_border": "#343d41",
+      "sidebar_highlight_text": "#101315",
+      "sidebar_highlight": "#798186",
+      "sidebar_text": "#cacccc",
+      "tab_loading": "#798186"
+    }
+  }
+}
