@@ -1,7 +1,7 @@
 {
   "name": "cosmic-k3-theme",
-  "displayName": "Cosmic K3",
-  "description": "Dark colour theme from the COSMIC K3 rice, syntax as in its Neovim scheme.",
+  "displayName": "Cosmic K3 / Cosmic K3 Day",
+  "description": "Cosmic K3 (dark) and Cosmic K3 Day (light), the COSMIC rice pair, for Cursor and VS Code",
   "version": "1.0.0",
   "publisher": "atraxsrc",
   "license": "MIT",
@@ -23,8 +23,10 @@
   "keywords": [
     "theme",
     "dark",
+    "light",
     "cosmic",
     "k3",
+    "k3day",
     "cursor"
   ],
   "contributes": {
@@ -33,6 +35,11 @@
         "label": "Cosmic K3",
         "uiTheme": "vs-dark",
         "path": "./themes/cosmic-k3-color-theme.json"
+      },
+      {
+        "label": "Cosmic K3 Day",
+        "uiTheme": "vs",
+        "path": "./themes/cosmic-k3day-color-theme.json"
       }
     ]
   }

@@ -24,4 +24,4 @@ fi
 
 echo
 echo "Done. In Claude Desktop press Ctrl+Shift+T and pick cosmic-k3."
-echo "K3 is dark only; Settings -> Appearance changes nothing."
+echo "K3 is the dark half; Settings -> Appearance -> Light shows K3 Day."
