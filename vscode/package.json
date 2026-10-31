@@ -1,0 +1,39 @@
+{
+  "name": "cosmic-k3-theme",
+  "displayName": "Cosmic K3",
+  "description": "Dark colour theme from the COSMIC K3 rice, syntax as in its Neovim scheme.",
+  "version": "1.0.0",
+  "publisher": "atraxsrc",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#101315",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atraxsrc/cosmic-k3-theme-"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "cosmic",
+    "k3",
+    "cursor"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cosmic K3",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cosmic-k3-color-theme.json"
+      }
+    ]
+  }
+}
