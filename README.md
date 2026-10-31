@@ -2,6 +2,8 @@
 
 # COSMIC · K3
 
+![K3 palette](assets/palette.png)
+
 Pop!_OS 24.04 on COSMIC in ink, steel and silver: desktop, terminal,
 shell, Firefox, Brave, cursor, wallpapers. A dark rice with no loud colour;
 terracotta is kept for what is wrong.
@@ -109,6 +111,7 @@ steel with ink text on it.
 ├── assets
 │   ├── cursors/                 # cursor preview
 │   ├── cosmic-term/             # scheme previews for cosmic-term/README.md
+│   ├── palette.png              # the 16 terminal colours, under the title
 │   ├── screenshot.png           # README screenshot
 │   └── wallpaper.png            # the stardust wallpaper at 2560x1440
 ├── backgrounds/                 # wallpapers, k3-<subject>.png (see Icons and wallpaper)
