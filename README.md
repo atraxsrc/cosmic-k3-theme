@@ -15,7 +15,6 @@ terracotta is kept for what is wrong.
 </div>
 
 ---
-![The stardust wallpaper on the K3 desktop](assets/wallpaper.png)
 
 ## Palette
 
@@ -432,8 +431,7 @@ Wallpapers ship in [`backgrounds/`](backgrounds/), named `k3-<subject>`: six
 ink-wash illustrations in the palette's own two tones, a stargazer under a
 swirling sky, a figure crouched in rubble, a climber in a storm, a girl in
 stardust, a window onto a dark eye over the city, and a rally car in a manga
-panel. The stardust one (`k3-stardust.jpg`) is the one in the hero image;
-`assets/wallpaper.png` is the same picture at 2560x1440.
+panel. `assets/wallpaper.png` is the stardust one (`k3-stardust.jpg`) at 2560x1440.
 
 Settings → Wallpaper → Add image → a file from `backgrounds/`, or one you downloaded.
 
@@ -442,8 +440,8 @@ Settings → Wallpaper → Add image → a file from `backgrounds/`, or one you 
 ## Setup
 
 ```bash
-git clone https://github.com/atraxsrc/cosmic-k3-theme-.git
-cd cosmic-k3-theme-
+git clone https://github.com/atraxsrc/cosmic-k3-theme.git
+cd cosmic-k3-theme
 
 # desktop
 # Settings → Appearance → Dark → Import cosmic/K3.ron

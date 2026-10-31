@@ -1,7 +1,7 @@
 # Cosmic K3 for Cursor
 
 Colour theme for [Cursor](https://cursor.com) from the COSMIC
-[K3](https://github.com/atraxsrc/cosmic-k3-theme-) rice: **Cosmic K3**, dark
+[K3](https://github.com/atraxsrc/cosmic-k3-theme) rice: **Cosmic K3**, dark
 only. It is a plain VS Code theme extension, so VS Code and VSCodium take it
 too.
 
