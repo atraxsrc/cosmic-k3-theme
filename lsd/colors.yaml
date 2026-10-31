@@ -1,0 +1,41 @@
+# 256-colour codes nearest the K3 palette on ink (lsd 1.0.0 does not accept
+# #hex here): 245 steel, 167 terracotta, 173 orange, 247 mist, 250 khaki,
+# 246 pewter, 244 muted, 240 dim.
+user: 250
+group: 244
+permission:
+  read: 244
+  write: 250
+  exec: 245
+  exec-sticky: 245
+  no-access: 240
+  octal: 246
+  acl: 246
+  context: 246
+date:
+  hour-old: 250
+  day-old: 247
+  older: 240
+size:
+  none: 240
+  small: 247
+  medium: 250
+  large: 167
+inode:
+  valid: 247
+  invalid: 167
+links:
+  valid: 246
+  invalid: 167
+tree-edge: 240
+git-status:
+  default: 240
+  unmodified: 240
+  ignored: 240
+  new-in-index: 247
+  new-in-workdir: 247
+  typechange: 250
+  deleted: 167
+  renamed: 246
+  modified: 173
+  conflicted: 167
