@@ -1,0 +1,56 @@
+# K3 for delta (the git diff pager), part of cosmic-k3-theme (MIT).
+# Removed lines in the error colour, added lines in the success colour, both
+# on the editor's container; changed words on a solid error / success block
+# with the editor background as text (the same as DiffAdd / DiffDelete /
+# DiffText in Neovim). Code inside the diff uses the bat K3 theme, so run
+# ./bat/install.sh first.
+#
+# Install: ./delta/install.sh puts this in ~/.config/delta/, then add to
+# ~/.gitconfig (the installer prints this, it never edits ~/.gitconfig):
+#   [include]
+#       path = ~/.config/delta/k3.gitconfig
+# and, if delta is not your pager yet:
+#   [core]
+#       pager = delta
+#   [interactive]
+#       diffFilter = delta --color-only
+
+[delta]
+    features = k3
+
+[delta "k3"]
+    dark = true
+    syntax-theme = K3
+    navigate = true
+    line-numbers = true
+
+    file-style = bold "#798186"
+    file-decoration-style = "#4B4E55" ul
+    hunk-header-style = file line-number syntax
+    hunk-header-decoration-style = "#4B4E55" box
+    hunk-header-file-style = "#949494"
+    hunk-header-line-number-style = "#C9C2B4"
+
+    minus-style = "#DE6145" "#212121"
+    minus-emph-style = bold "#101315" "#DE6145"
+    minus-non-emph-style = "#DE6145" "#212121"
+    plus-style = "#9FA5A9" "#212121"
+    plus-emph-style = bold "#101315" "#9FA5A9"
+    plus-non-emph-style = "#9FA5A9" "#212121"
+    zero-style = syntax
+    whitespace-error-style = "#101315" "#D87C4A"
+
+    line-numbers-left-style = "#4B4E55"
+    line-numbers-right-style = "#4B4E55"
+    line-numbers-minus-style = "#DE6145"
+    line-numbers-plus-style = "#9FA5A9"
+    line-numbers-zero-style = "#565D60"
+
+    commit-style = bold "#C9C2B4"
+    commit-decoration-style = "#4B4E55" box
+    blame-palette = "#101315 #212121 #2C2C2D"
+    blame-code-style = syntax
+    merge-conflict-begin-symbol = ▼
+    merge-conflict-end-symbol = ▲
+    merge-conflict-ours-diff-header-style = bold "#9FA5A9"
+    merge-conflict-theirs-diff-header-style = bold "#D87C4A"
