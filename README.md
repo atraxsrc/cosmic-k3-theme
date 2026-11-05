@@ -130,6 +130,8 @@ steel with ink text on it.
 │   ├── config.yaml              # theme: custom
 │   ├── colors.yaml              # permission / size / date / git columns
 │   └── install.sh
+├── notesnook
+│   └── cosmic-k3.json           # Notesnook theme, K3 (dark)
 ├── nvim                         # Neovim colorscheme, LazyVim spec, RON syntax, install.sh
 ├── obsidian
 │   ├── cosmic-k3.css            # CSS snippet, K3 (dark) + K3 Day (light)
@@ -416,6 +418,22 @@ in ![#C9C2B4](https://placehold.co/12x12/c9c2b4/c9c2b4.png) `#C9C2B4`. The same 
 
 It copies the file into the vault's `.obsidian/snippets/`. Snippets are per
 vault, so run it once per vault.
+
+---
+
+## Notesnook
+
+`notesnook/cosmic-k3.json` is a [Notesnook](https://notesnook.com/) theme for K3,
+built from the same palette as the Obsidian snippet: window, list and sidebar
+backgrounds, text, accent, selection and the error / success colours. A
+Notesnook theme holds one colour scheme, so the K3 Day half ships as
+`notesnook/cosmic-k3day.json` in cosmic-k3day-theme; load both if you switch between
+dark and light.
+
+```text
+Notesnook → Settings → Appearance → Themes → Load from file
+→ pick notesnook/cosmic-k3.json → Set as default
+```
 
 ---
 
