@@ -217,7 +217,7 @@ Firefox and the shell layer do not follow the toggle; those are per-rice files.
 | Where | Setting |
 |-------|---------|
 | Fonts | Interface `Maple Mono Normal` Light, monospace `Maple Mono Normal NFM` |
-| Icons | Cosmic-K3-Steel |
+| Icons | Cosmic-K3-Dark |
 | Windows | Minimize / maximize buttons hidden, theme applied to GNOME apps |
 | Terminal | Maple Mono 15 (weights 500 / bold 800 / dim 300), 77% opacity, no header bar, K3 |
 
@@ -709,13 +709,13 @@ cp btop/K3.theme ~/.config/btop/themes/
 Icons: **Cosmic-K3**, the [Kanagawa icons](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/tree/main/icons/Kanagawa)
 by Fausto Korpsvart recolored to this palette in
 [cosmic-icon-themes](https://github.com/atraxsrc/cosmic-icon-themes). Folders come in
-three colors: **Steel** ![#798186](https://placehold.co/12x12/798186/798186.png) `#798186` (default), **Terracotta** ![#DE6145](https://placehold.co/12x12/de6145/de6145.png) `#DE6145` and **Dark** ![#2C2C2D](https://placehold.co/12x12/2c2c2d/2c2c2d.png) `#2C2C2D` with steel symbols.
+three colors: **Steel** ![#798186](https://placehold.co/12x12/798186/798186.png) `#798186`, **Terracotta** ![#DE6145](https://placehold.co/12x12/de6145/de6145.png) `#DE6145` and **Dark** ![#2C2C2D](https://placehold.co/12x12/2c2c2d/2c2c2d.png) `#2C2C2D` (default) with steel symbols.
 
 ![Cosmic-K3 folder colors](https://raw.githubusercontent.com/atraxsrc/cosmic-icon-themes/main/previews/Cosmic-K3.png)
 
 ```bash
-./icons/install.sh                       # Steel folders
-./icons/install.sh --variant Terracotta  # or Dark
+./icons/install.sh                  # Dark folders
+./icons/install.sh --variant Steel  # or Terracotta
 ```
 
 It downloads the pack from the latest cosmic-icon-themes release, checks its SHA256,
