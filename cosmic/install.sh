@@ -18,6 +18,6 @@ done
 
 cat <<'EOF'
 
-Done. Needs the Maple fonts and Cosmic-K3 icons (./icons/install.sh) installed, and the K3
+Done. Needs the fonts (./fonts/install.sh) and Cosmic-K3 icons (./icons/install.sh) installed, and the K3
 terminal scheme imported, or COSMIC falls back to its defaults.
 EOF
